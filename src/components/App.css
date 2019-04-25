@@ -1,0 +1,45 @@
+#app form{
+	text-align: center;
+}
+
+#app form label{
+	margin-top:60px;
+	display: block;
+}
+
+#app form #summonerNameTextbox {
+	border-radius: 5px;
+    padding: 5px;
+	margin-top: 10px;
+}
+
+#app form #searchButton{
+	margin-top:20px;
+}
+
+
+#app #resultWrapper {
+	width:1200px;
+	margin: 30px auto 0 auto;
+}
+
+#app #spinner{
+	margin: 20px auto 0 auto;
+	width: 30px;
+	display:none;
+}
+
+#app #resultWrapper h2{
+	text-align:center;
+}
+
+#app #resultWrapper ul{
+	list-style: none;
+    padding-left: 0;
+}
+
+#app #resultWrapper ul li{
+	padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+}
